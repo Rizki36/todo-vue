@@ -76,9 +76,22 @@ export default {
   border-radius: 10px;
   padding: 20px;
   margin: 20px;
-  width: 500px;
+  width: 100%;
   min-height: 400px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 100%;
+}
+@media (max-width: 575.98px) {
+  .container-todo {
+    width: 100%;
+  }
+}
+
+@media (min-width: 575.98px) {
+  .container-todo {
+    width: 500px;
+    margin: 20px;
+  }
 }
 
 header {

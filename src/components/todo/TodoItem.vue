@@ -66,11 +66,25 @@ label {
   background-color: #ece7e7;
   border-radius: 50%;
   color: #ece7e7;
+  position: relative;
+}
+
+label:not(.checked)::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
 }
 
 label.checked {
-  background-color: rgba(0, 0, 0, 0);
-  color: #313334;
+  background-color: rgb(237, 237, 237);
+  color: #525252;
 }
 input {
   visibility: hidden;
