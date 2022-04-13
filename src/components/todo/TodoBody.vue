@@ -1,5 +1,5 @@
 <template>
   <div>
-    <input type="radio" />
+    <TodoItem />
   </div>
 </template>
