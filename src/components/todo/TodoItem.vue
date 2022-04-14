@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <input id="id" type="checkbox" :value="complete" @input="handleInput" />
-    <label role="button" :class="{ checked: complete }" for="id">
+    <input :id="id" type="checkbox" :value="complete" @input="handleInput" />
+    <label role="button" :class="{ checked: complete }" :for="id">
       <IconCheck
     /></label>
 
