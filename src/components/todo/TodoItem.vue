@@ -6,7 +6,7 @@
     /></label>
 
     <div>
-      <h3>{{ todoTitle }} - {{ complete }}</h3>
+      <h3>{{ todoTitle }}</h3>
     </div>
 
     <div class="actions">
